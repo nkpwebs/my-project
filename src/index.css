@@ -1,0 +1,57 @@
+* {
+  direction: rtl;
+}
+
+body {
+  /* font-family: 'M PLUS 1p', sans-serif; */
+  font-family: 'Varela Round', sans-serif;
+  text-align: right;
+}
+
+h1, h2, h3, h4, .h4, h5, .h5 {
+  text-align: right;
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.form-check {
+  /* text-align: left; */
+  text-align: right;
+}
+
+.form-check-input {
+  margin-right: -1em;
+}
+
+.form-check-inline .form-check-input{
+  margin-right: 0;
+  margin-left: 0.3rem;       
+}
+
+.align-left {
+  text-align: left;
+}
+/**
+** Selected Ingredients on recipes list
+**/
+/* bs4 alerts */
+.alert-dismissible {
+  padding-left: 3rem;
+  padding-right: 1rem;
+}
+
+.alert-dismissible .close {
+  right: initial;
+  left: 0;
+}
+
+.list-inline {
+  padding-right: 0;
+  padding-left: initial;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: initial;
+}
